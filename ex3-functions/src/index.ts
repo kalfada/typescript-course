@@ -13,3 +13,8 @@ const sumArrow = (num1: number, num2: number): number => num1 + num2;
 const sumAnonymous = function (num1: number, num2: number): number {
     return num1 + num2;
 }
+
+console.log(sum(3, 2));
+console.log(sumArrow(3, 2));
+console.log(sumAnonymous(3, 2));
+

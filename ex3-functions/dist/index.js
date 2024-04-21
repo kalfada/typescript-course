@@ -9,3 +9,6 @@ const sumArrow = (num1, num2) => num1 + num2;
 const sumAnonymous = function (num1, num2) {
     return num1 + num2;
 };
+console.log(sum(3, 2));
+console.log(sumArrow(3, 2));
+console.log(sumAnonymous(3, 2));
