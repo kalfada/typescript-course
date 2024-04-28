@@ -17,6 +17,6 @@ export class DataResource<T> {
     }
     async save(data: T) {
         const res = await axios.post(this.endpoint, data)
-        return res.data
+        return res
     }
 }
